@@ -299,22 +299,11 @@ This project targets the following venues:
 
 ## 👤 Author
 
-**[Your Name]**
+**Asfiya Tehmeen**
 4th Year Computer Science | Healthcare AI Research
-[Your University]
 
-- 🔗 LinkedIn: [your-linkedin]
-- 🐦 Twitter/X: [your-handle]
-- 📧 Email: [your-email]
-- 📄 Published papers: [Google Scholar link]
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
-Clinical data used in examples is entirely synthetic. No real patient data was used in development or testing.
+- 🔗 LinkedIn: [[your-linkedin](https://www.linkedin.com/in/asfiya-tehmeen/)]
+- 📧 Email: [asfiyatehmeen@gmail.com]
 
 ---
 
