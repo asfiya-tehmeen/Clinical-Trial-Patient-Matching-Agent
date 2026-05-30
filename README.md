@@ -302,7 +302,7 @@ This project targets the following venues:
 **Asfiya Tehmeen**
 4th Year Computer Science | Healthcare AI Research
 
-- 🔗 LinkedIn: [[your-linkedin](https://www.linkedin.com/in/asfiya-tehmeen/)]
+- 🔗 LinkedIn: [[Linkedin](https://www.linkedin.com/in/asfiya-tehmeen/)]
 - 📧 Email: [asfiyatehmeen@gmail.com]
 
 ---
