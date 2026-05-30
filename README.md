@@ -252,24 +252,15 @@ Edit the `PATIENT_EHR` variable in **Cell 4** with any clinical note. Re-run fro
 
 ```
 clinical-trial-matching-agent/
-│
-├── clinical_trial_matching_grok.py   # Main Colab notebook (Groq version)
-├── clinical_trial_matching_agent.py  # Anthropic version (reference)
-├── requirements.txt                  # Python dependencies
-├── README.md                         # This file
-│
-├── data/
-│   └── sample_patients/
-│       ├── nsclc_patient.txt         # Stage IIIB NSCLC example
-│       ├── breast_cancer_patient.txt # HER2+ breast cancer example
-│       ├── colorectal_patient.txt    # Stage IV colorectal example
-│       └── healthy_volunteer.txt     # Healthy volunteer example
-│
-├── outputs/
-│   └── trial_matching_results.json   # Sample output file
-│
-└── docs/
-    └── architecture.png              # Pipeline diagram
+├── config.py               ← API key, models, shared helpers (call_llm, clean_json)
+├── patients.py             ← All 5 sample patients + ACTIVE_PATIENT selector
+├── ehr_extraction.py       ← Extraction prompt + extract_patient_profile()
+├── trial_search.py         ← search_clinicaltrials(), parse_all_trials(), pre_filter()
+├── criteria_reasoning.py   ← CRITERIA_PROMPT + reason_over_all_trials()
+├── scoring.py              ← score_trial() + score_and_rank()
+├── display.py              ← print_match_card(), print_missing_data_plan(), export_results()
+├── main.py                 ← run_pipeline() — calls everything in order
+└── ClinicalTrialMatching.ipynb  ← Colab entry point — just imports + runs main.py
 ```
 
 ---
