@@ -1,0 +1,6 @@
+openai
+chromadb
+requests
+pandas
+pydantic
+rich
