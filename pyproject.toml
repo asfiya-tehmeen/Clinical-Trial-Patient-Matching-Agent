@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ctmatch"
+version = "0.1.0"
+description = "Agentic clinical trial patient matching with criterion-level reasoning"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "openai",
+    "requests",
+    "pandas",
+    "python-dotenv",
+]
+
+[project.scripts]
+ctmatch = "ctmatch.cli:main"
+
+[tool.setuptools]
+packages = ["ctmatch"]
